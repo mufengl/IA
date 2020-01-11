@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <title>Index</title>
+    <style>
+      body {
+        background-color: #f3efe8;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a id="title" href="index.html">Margulis School of Music</a>
+      <a id="navtitles" href="contact.html">Contact Us</a>
+      <a id="navtitles" href="details.html">Lesson details</a>
+      <a id="navtitles" href="gallery.html" class="active">Gallery</a>
+      <a id="navtitles" href="WhoWeAre.html">Who We Are</a>
+    </div>
+      <table class="container">
+        <tr>
+          <th style="width: 15%;">
+            <button class="left" onclick="plusDivs(-1)"></button>
+          </th>
+          <th style="width: 70%; height: 70%;">
+            <center>
+            <img class="slides" src="slide2.jpg" style="height: 650px;">
+            <img class="slides" src="slide1.jpeg" style="height: 650px;">
+            <img class="slides" src="slide3.jpg" style="height: 650px;">
+            </center>
+          </th>
+          <th style="width: 15%;">
+            <button class="right" onclick="plusDivs(1)"></button>
+          </th>
+        </tr>
+      </table>
+    <script src="gallery.js"></script>
+  </body>
+</html>

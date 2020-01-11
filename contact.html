@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <style>
+      body {
+        background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #f3efe8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a id="title" href="index.html">Margulis School of Music</a>
+      <a id="navtitles" href="contact.html" class="active">Contact Us</a>
+      <a id="navtitles" href="details.html">Lesson details</a>
+      <a id="navtitles" href="gallery.html">Gallery</a>
+      <a id="navtitles" href="WhoWeAre.html">Who We Are</a>
+    </div>
+    <div class="vcenter">Contact Margulis School of Music</div>
+    <table class="table">
+      <tr>
+        <td style="width: 50%; height: 200px;"><div style="text-align: center;font-size: 150%; font-family: 'Josefin Sans', Sans-serif; border-right: 1px solid;">Give us a call: <p><div>613-762-0798</div></div></td>
+          <td style="width: 50%; height: 200px;"><div style="text-align: center; font-size: 150%; font-family: 'Josefin Sans', Sans-serif;">Email us: <p> <div>valushechka@hotmail.com</div></div></td>
+      </tr>
+      <tr>
+        <td colspan="2"><div style="text-align: center; font-size: 150%; font-family: 'Josefin Sans', Sans-serif;">Talk to us in person: <p> <div style="font-family: 'EB Garamond', Serif;">For privacy, only street name is shown, send an inquiry for specific address.</div></div></td>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17064.014043001567!2d-75.7346689970192!3d45.28589564545516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdfd142ad44b0d%3A0xa08cc4d47a23b46a!2sBoulder%20Way%2C%20Ottawa%2C%20ON!5e0!3m2!1sen!2sca!4v1578569258621!5m2!1sen!2sca" width="500" height="400" frameborder="1" style="border:1px solid black; position: absolute; top: 800px; left: 50%;transform: translate(-50%);" allowfullscreen=""></iframe>
+      </tr>
+    </table>
+    <form method="post" action="send_mail.php">
+    <p>
+    <label>First Name
+    <input type="text" name="first_name" required>
+    </label>
+    </p>
+    <p>
+    <label>Email
+    <input type="email" name="email_address">
+    </label>
+    </p>
+    <p>
+    <label>Comments
+    <textarea name="comments" maxlength="500"></textarea>
+    </label>
+    </p>
+    <p><button>Submit the form</button></p>
+    </form>
+  </body>
+</html>

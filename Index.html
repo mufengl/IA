@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <title>Index</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      body {
+        margin:0;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a id="title" href="index.html" class="active">Margulis School of Music</a>
+      <a id="navtitles" href="contact.html">Contact Us</a>
+      <a id="navtitles" href="details.html">Lesson details</a>
+      <a id="navtitles" href="gallery.html">Gallery</a>
+      <a id="navtitles" href="WhoWeAre.html">Who We Are</a>
+    </div>
+      <div class="text">
+        Welcome to the Margulis School of Music
+        <p>
+        -Joseph and Valentyna Margulis <br>
+          <div class="fadein">
+          <button class="index" onclick="changePage()">Get to know us</button>
+          </div>
+      </div>
+    <script>
+      function changePage() {
+        window.location.href="WhoWeAre.html";
+      }
+    </script>
+  </body>
+</html>
